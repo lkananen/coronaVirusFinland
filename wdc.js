@@ -17,16 +17,16 @@
     };
     myConnector.getData = function (table, doneCallback) {
         $.getJSON("https://w3qa5ydb4l.execute-api.eu-west-1.amazonaws.com/prod/finnishCoronaData", function (resp) {
-            var feat = resp;
+            var feat = resp["confirmed"];
             tableData = [];
             // Iterate over the JSON object
-            for (var i = 0, len = feat.confirmed.length; i < len; i++) {
+            for (var i = 0, len = feat.length; i < len; i++) {
                 tableData.push({
-                    "id": feat[i].confirmed.id,
-                    "date": feat[i].confirmed.date,
-                    "healthCareDistrict": feat[i].confirmed.healthCareDistrict,
-                    "infectionSource": feat[i].confirmed.infectionSource,
-                    "infectionSourceCountry": feat[i].confirmed.infectionSourceCountry
+                    "id": feat[i]["id"],
+                    "date": feat[i]["date"],
+                    "healthCareDistrict": feat[i]["healthCareDistrict"],
+                    "infectionSource": feat[i]["infectionSource"],
+                    "infectionSourceCountry": feat[i]["infectionSourceCountry"]
                 });
             }
             table.appendRows(tableData);
