@@ -1,6 +1,7 @@
 # Web Data Connector access to Finnish Coronavirus dataset
-This repository creates a Web Data Connector (WDC) for Tableau that is usable through this link: 
+This repository contains Web Data Connector (WDC) for Tableau that has been published through this repository's GitHub Pages site at:  
 https://lkananen.github.io/coronaVirusFinland/
+
 The connector allows easy access with Tableau to the data source listed below.
 
 # Source data
