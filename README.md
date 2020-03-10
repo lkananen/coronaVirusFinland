@@ -7,8 +7,14 @@ The connector allows easy access with Tableau to the data source listed below.
 # Source data
 Data on Coronavirus COVID-19 Finnish cases has been collected and published by Helsingin Sanomat as an open source dataset.
 
-### Links
-- Data visualisation can be found under my Tableau public profile:
+
+## Visualisation example
+
+![Infections](./docs/img/visualisation_example.png)  
+More visualisations on the data can be found in my Tableau Public profile. See the links section.
+
+# Links
+- Data visualisations:
   - https://public.tableau.com/profile/lkananen/
 - Direct link to the used API:  
   - https://w3qa5ydb4l.execute-api.eu-west-1.amazonaws.com/prod/finnishCoronaData
