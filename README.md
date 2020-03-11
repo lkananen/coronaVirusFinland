@@ -7,17 +7,17 @@ The connector allows easy access with Tableau to the data source listed below.
 # Source data
 Data on Coronavirus COVID-19 Finnish cases has been collected and published by Helsingin Sanomat as an open source dataset.
 
+## Visualisation example
+
+![Infections](./docs/img/visualisation_example.png)  
+More visualisations on the data can be found under [my Tableau Public profile](https://public.tableau.com/profile/lkananen/).
+
 # Tableau connection instructions
 1. Open a worksheet.
 2. Add new data source. Connection is a server connection and connect using Web Data Connector.
 3. Enter address: https://lkananen.github.io/coronaVirusFinland/
 4. Select the desired dataset.
 5. Connect.
-
-## Visualisation example
-
-![Infections](./docs/img/visualisation_example.png)  
-More visualisations on the data can be found in my Tableau Public profile. See the links section.
 
 # Links
 - Data visualisations:
